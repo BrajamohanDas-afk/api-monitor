@@ -1,0 +1,19 @@
+{
+  "endpoints": [
+    {
+      "url": "https://api.github.com",
+      "threshold": 1000,
+      "timeout": 10
+    },
+    {
+      "url": "https://jsonplaceholder.typicode.com/posts",
+      "threshold": 1200,
+      "timeout": 10
+    }
+  ],
+  "interval_seconds": 60,
+  "retention_days": 30,
+  "alerts": {
+    "webhook_url": ""
+  }
+}

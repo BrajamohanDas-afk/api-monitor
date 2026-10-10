@@ -1,0 +1,35 @@
+### Test GitHub API
+GET https://api.github.com
+Accept: application/json
+
+###
+
+### Test JSONPlaceholder API
+GET https://jsonplaceholder.typicode.com/posts
+Accept: application/json
+
+###
+
+### Simulate a Failed Endpoint
+GET https://not-a-real-site-123456.com
+Accept: application/json
+
+###
+
+### Local API: configured endpoints
+GET http://localhost:8000/endpoints
+
+###
+
+### Local API: recent logs (newest first)
+GET http://localhost:8000/logs
+
+###
+
+### Local API: run checks now
+POST http://localhost:8000/check
+
+###
+
+### Local API: per-endpoint stats
+GET http://localhost:8000/stats
